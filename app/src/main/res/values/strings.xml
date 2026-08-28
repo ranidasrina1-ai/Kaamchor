@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kaam Chor</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="have_account">Already have an account? Login</string>
+
+    <string name="feed_title">Kaam Chor</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="add_comment">Add a comment...</string>
+    <string name="post">Post</string>
+
+    <string name="hint_message">Message...</string>
+    <string name="create_group">New Group</string>
+    <string name="typing">typing...</string>
+
+    <string name="incoming_call">Incoming Call</string>
+    <string name="calling">Calling...</string>
+    <string name="end_call">End Call</string>
+    <string name="mute">Mute</string>
+    <string name="speaker">Speaker</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="hint_display_name">Display Name</string>
+    <string name="hint_bio">Bio</string>
+    <string name="save">Save</string>
+    <string name="posts">Posts</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_upload">Upload</string>
+</resources>
