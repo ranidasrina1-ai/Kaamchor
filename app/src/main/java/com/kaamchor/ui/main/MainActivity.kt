@@ -38,7 +38,11 @@ class MainActivity : AppCompatActivity() {
         )
 
         // Start the SSE notification service
-        com.kaamchor.service.KaamchorNotificationService.start(this)
+        try {
+            com.kaamchor.service.KaamchorNotificationService.start(this)
+        } catch (e: Exception) {
+            android.util.Log.e("MainActivity", "Could not start notification service: ${e.message}")
+        }
 
         setupBottomNav()
         applyZeyadaFontToBottomNav()
